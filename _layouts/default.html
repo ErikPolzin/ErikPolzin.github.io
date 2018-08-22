@@ -11,18 +11,31 @@
 		
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
 	<div class="navbar-fixed">
-		<nav>
+		<nav class="nav-extended">
 			<div class="nav-wrapper">
-				<a href="#" class="brand-logo">Logo</a>
+				<a href="#" class="brand-logo">MysterE</a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					<li><a href="/">Home</a></li>
 					<li><a href="/blog">Blog</a></li>
 					<li><a href="/projects">Projects</a></li>
+					<li><a href="/photography">Photography</a></li>
 				</ul>
 			</div>
+			<div class="nav-content">
+				<span class="nav-title">{{ page.title }}</span>
+				<form>
+					<div class="input-field">
+						<input id="search" type="search" required>
+						<label class="label-icon" for="search"><i class="material-icons">search</i></label>
+						<i class="material-icons">close</i>
+					</div>
+      	</form>
+    	</div>
 		</nav>
+		
 	</div>
 	<body>
 			
