@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>{{ page.title }}</title>
+		<meta name="theme-color" content="#ef6c00">
 		
 		<!-- Compiled and minified CSS Materialize -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
@@ -14,8 +15,9 @@
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
 	<div class="navbar-fixed">
-		<nav>
+		<nav class="orange darken-3 white-text">
 			<div class="nav-wrapper">
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 				<a href="#" class="brand-logo">MysterE</a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					<li><a href="/">Home</a></li>
@@ -25,8 +27,15 @@
 				</ul>
 			</div>
 		</nav>
-		
 	</div>
+	
+	<ul class="sidenav" id="mobile-demo">
+    <li><a href="/">Home</a></li>
+		<li><a href="/blog">Blog</a></li>
+		<li><a href="/projects">Projects</a></li>
+		<li><a href="/photography">Photography</a></li>
+  </ul>
+	
 	<body>
 			
 		<div class="container" id="main">
@@ -35,7 +44,7 @@
             
 	</body>
 	<footer class="page-footer">
-			<div class="container">
+			<div class="container orange darken-2">
 				<div class="row">
 					<div class="col s12">
 						<h5 class="white-text">Links</h5>
@@ -47,7 +56,7 @@
 				</div>
 			</div>
 			<div class="footer-copyright">
-				<div class="container">
+				<div class="container orange darken-3">
 				© 2018 #NoCopyright
 				<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
 				</div>
