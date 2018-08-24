@@ -1,9 +1,24 @@
-  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
-  #main {
-    flex: 1 0 auto;
-  }
+.nav-title {
+  padding: 10px 15px !important;
+  font-family: "Lobster Two";
+}
+
+#blog {
+  font-family: "Merriweather";
+  font-weight: lighter;
+  padding-top: 60px;
+}
+
+#me-img {
+  object-fit: cover;
+}
+
+#main {
+  flex: 1 0 auto;
+}

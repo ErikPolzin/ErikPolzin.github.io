@@ -4,31 +4,36 @@
 		<title>{{ page.title }}</title>
 		<meta name="theme-color" content="#ef6c00">
 
-		<!--Let browser know website is optimized for mobile-->
+    <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 		<!-- Compiled and minified CSS Materialize -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
 
 		<!-- Compiled and minified JavaScript Materialize -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 		<script type="text/javascript" src="/js/main.js"></script>
 
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Lobster+Two|Merriweather:n,l" rel="stylesheet">
 	</head>
 
 	<div class="navbar-fixed">
-		<nav class="orange darken-3 white-text">
-			<div class="nav-wrapper">
+		<nav class="orange darken-3 white-text nav-extended">
+			<div class="nav-wrapper" id="site-title">
 				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 				<a href="#" class="brand-logo"> <i class="material-icons">help_outline</i> MysterE</a>
 				<ul id="nav-mobile" class="right hide-on-med-and-down">
 					{% include sidebar.html %}
 				</ul>
 			</div>
+      <div class="nav-content red darken-1" id="site-subtitle">
+        <div class="nav-title center">{{ page.title }}</div>
+        <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
+          <i class="material-icons">favorite</i>
+        </a>
+      </div>
 		</nav>
 	</div>
 
@@ -38,7 +43,9 @@
 
 	<body>
 		<div class="container" id="main">
-			{{ content }}
+      <div id="blog">
+			  {{ content }}
+      </div>
 		</div><!-- /.container -->
 	</body>
 

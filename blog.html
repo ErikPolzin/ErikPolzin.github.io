@@ -1,0 +1,16 @@
+---
+layout: default
+title: Blogs
+---
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {% for cat in post.categories %}
+        <div class="chip">
+          {{ cat }}
+        </div>
+      {% endfor %}
+    </li>
+  {% endfor %}
+</ul>
