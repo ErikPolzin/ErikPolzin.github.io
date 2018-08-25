@@ -50,3 +50,8 @@ body {
 #main {
   flex: 1 0 auto;
 }
+
+.MathJax_Display {
+  overflow-y: hidden;
+  overflow-x: auto;
+}

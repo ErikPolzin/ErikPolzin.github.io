@@ -30,7 +30,7 @@ Let's try calculating the second derivative on both sides of that second equatio
 
 $$ \begin{align*}
 P(0) &= f(0) + f^{(1)}(0) \cdot x\\
-P^{(1)}(0) &= f^{(1)}(0)\times x\\
+P^{(1)}(0) &= f^{(1)}(0)\cdot x\\
 P^{(2)}(0) &= f^{(2)}(0)\\
 \end{align*} $$
 
@@ -68,19 +68,21 @@ f^{III}(x) &= sin x \\
 f^{IV}(x) &= cos x \\
 \end{align*} $$
 
-This pattern repeats. At \\(x=0\\), we get the repeating series \\(1, 0, -1, 0\\), and in the Maclaurin series:
+This pattern repeats. At \\(x=0\\), we get the repeating series \\(1, 0, -1, 0\\), so the Maclaurin series would look like this:
 
-$$ cos x = 1\times1 + 0 + -1\times \frac{x^2}{2!} + 0 + 1\times \frac{x^4}{4!} + 0 - 1\times \frac{x^6}{6!} $$
+$$ cos x = 1 + 0 - \frac{x^2}{2!} + 0 + \frac{x^4}{4!} + 0 - \frac{x^6}{6!} $$
 
 Because every second derivative of \\(cos x\\) is zero, every second term in the series is zero, giving us the optimisation:
-$$ \frac{x^{2n}}{(2n)!}$$ \\
+
+$$ \frac{x^{2n}}{(2n)!} $$
+
 The formula is not complete, as the series alternates between positive and negative values. We add \\((-1)^n\\) to get:
 
-$$ cos x = \sum_{n=0}^{\infty} (-1)^n \times \frac{x^{2n}}{(2n)!} $$
+$$ cos x = \sum_{n=0}^{\infty} (-1)^n \cdot \frac{x^{2n}}{(2n)!} $$
 
-The formula for \\(sin x\\) is identical but for the fact that its derivatives are shifted by one, giving us:
+The formula for \\(sin x\\) is identical but for the fact that its derivatives and signs are shifted by one, giving us:
 
-$$ sin x = \sum_{n=0}^{\infty} (-1)^n \times \frac{x^{2n+1}}{(2n+1)!} $$
+$$ sin x = \sum_{n=0}^{\infty} (-1)^n \cdot \frac{x^{2n+1}}{(2n+1)!} $$
 
 ------------------------------------------------------------
 
