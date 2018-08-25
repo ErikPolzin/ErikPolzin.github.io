@@ -9,7 +9,7 @@ body {
 }
 
 .nav-title {
-  padding: 20px 15px !important;
+  padding: 10px 20px !important;
   font-family: "Lobster Two";
 }
 
@@ -29,7 +29,9 @@ body {
 }
 
 #me-img {
-  object-fit: cover;
+  shape-outside: circle(50%);
+  float: left;
+  padding: 20px;
 }
 
 #main {
