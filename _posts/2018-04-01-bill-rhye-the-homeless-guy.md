@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Bill Rhye the Homeless Guy"
-date:   2015-11-17 16:16:01 -0600
-categories: short-story story essay narrative
+date:   "01 Apr 2018"
+tags: short-story story essay narrative
 ---
 
 Hoopvol Street was anything but hopeful, and everyone who lived there knew it. The smell of depression was practically tangible. It wafted out of the darkest corners and the dodgiest crannies that the seedy street had to offer. Beady, red-rimmed eyes would stare at you malevolently from the shadows, were you brave enough to walk its length. If this were the case, it was never long before you felt a knife pressed to your gut and a smoky voice whispering:

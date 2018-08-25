@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "The Secret Goldfish"
-date:   2015-11-17 16:16:01 -0600
-categories: essay narrative
+date:   "01 Feb 2017"
+tags: essay narrative
 ---
 
 I sit alone. Usually.  
 I was sitting in my favourite spot, at my favourite time. It was morning, still dark, in fact. I had grabbed the earliest edition of the newspaper that I could find, and sat, legs crossed and newspaper propped open, on my bench. The sunlight was crawling down the rooftops, and a light breeze rustled the leaves in the streets.  
 The streets are empty. Usually.
-<!--more--> 
+<!--more-->
 But today I heard the sound of a man shuffling in my direction from behind me. I resisted the urge to look up, but he slumped down on the bench next to me. I shot him a sideways glance.  
 Greasy, greying hair; his face seemed droopy, like the sad cigarette hanging out of one corner of his mouth. Old, outdated tweed suit, ragged at the edges.  
 He held a big, clear fish-bowl clutched under his arm, empty apart from some water sloshing around at the bottom.  

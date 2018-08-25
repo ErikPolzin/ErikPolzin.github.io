@@ -12,11 +12,14 @@
 
 		<!-- Compiled and minified JavaScript Materialize -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+		{% if page.math %}<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>{% endif %}
 		<script type="text/javascript" src="/js/main.js"></script>
+		<script type="text/javascript" src="/js/post.js"></script>
 
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Lobster+Two|Merriweather:n,l" rel="stylesheet">
+
 	</head>
 
 	<div class="navbar-fixed">
@@ -32,7 +35,7 @@
       <div id="post">
 			  {{ content }}
       </div id="post-categories">
-	      {% for cat in page.categories %}
+	      {% for cat in page.tags %}
 	        <div class="chip">
 	          {{ cat }}
 	        </div>

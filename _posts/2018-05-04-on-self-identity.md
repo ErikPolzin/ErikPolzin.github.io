@@ -1,16 +1,17 @@
 ---
 layout: post
 title:  "What makes me me and you you?"
-date:   2015-11-17 16:16:01 -0600
-categories: essay self-identity
+date:   "04 May 2018"
+tags: essay self-identity
 ---
 
-You’re sitting on your couch in your living room. It’s early in the morning, and you’re busy drinking a cup of coffee. You hear a scratching at the door, and open it cautiously, only to find a strange-looking extraterrestrial lifeform waiting to be let in. It makes a strange noise that you don’t understand, but you whiz out your phone and type it into Google Translate. The alien is asking “Who are you?”.  
+You’re sitting on your couch in your living room. It’s early in the morning, and you’re busy drinking a cup of coffee. You hear a scratching at the door, and open it cautiously, only to find a strange-looking extraterrestrial lifeform waiting to be let in.
+<!--more-->
+It makes a strange noise that you don’t understand, but you whiz out your phone and type it into Google Translate. The alien is asking “Who are you?”.  
 You say: “I’m Erik”.2  
 “What’s Erik?” puzzles the extraterrestrial lifeform.  
 “Well, I’m Erik.”  
 “So, what you’re really saying is that you are you.”  
-<!--more-->
 You think for a moment. “I suppose that’s one way of seeing it, yes.”  
 At this point, your best friend, Erik, comes walzing past, whistling a catchy tune.  
 “Oh, hey Erik,” Erik says. “Who’s your friend?”  

@@ -6,11 +6,12 @@ layout: default
     <div class="col s12 m6 l4 xl3">
       <div class="card post-excerpt-card">
         <div class="card-content">
+          <small class="right grey-text">{{ post.date | date_to_string }}</small>
           <a href="{{ post.url }}" class="card-title">{{ post.title }}</a>
           {{ post.excerpt }}
         </div>
         <div class="card-action">
-          {% for cat in post.categories %}
+          {% for cat in post.tags %}
             <div class="chip">
               {{ cat }}
             </div>
