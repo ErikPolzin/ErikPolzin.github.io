@@ -17,7 +17,10 @@ body {
   font-family: "Merriweather";
   font-weight: lighter;
   text-align: justify;
-  padding-top: 60px;
+}
+
+.post-excerpt-card p {
+  color: grey;
 }
 
 #post p:first-of-type:first-letter {

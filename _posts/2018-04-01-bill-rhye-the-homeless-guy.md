@@ -7,6 +7,7 @@ categories: short-story story essay narrative
 
 Hoopvol Street was anything but hopeful, and everyone who lived there knew it. The smell of depression was practically tangible. It wafted out of the darkest corners and the dodgiest crannies that the seedy street had to offer. Beady, red-rimmed eyes would stare at you malevolently from the shadows, were you brave enough to walk its length. If this were the case, it was never long before you felt a knife pressed to your gut and a smoky voice whispering:
 “Not from here, are we?”
+<!--more-->
 Yet, amidst all this, there was old Bill Rhye. The ancient, homeless man was always to be found in his old camper-chair in the afternoon, perched precariously at the edge of the curb. Mr Rhye always wore an old tweed suit from another century, that had never been washed in its lifetime. He would slowly dip his hat to any passers-by, smile a warm, gap-toothed grin and then release a puff of smoke from his pipe.
 
 I used to watch the man from my cubicle at IniTech. The reminder of his presence was sometimes all that kept me sane in the corporate world. Even though I had never spoken to him, the sight of his humble, watery smile was enough to give a new purpose to my day. Bill was like a reassuring friend.

@@ -10,6 +10,7 @@ You say: “I’m Erik”.2
 “What’s Erik?” puzzles the extraterrestrial lifeform.  
 “Well, I’m Erik.”  
 “So, what you’re really saying is that you are you.”  
+<!--more-->
 You think for a moment. “I suppose that’s one way of seeing it, yes.”  
 At this point, your best friend, Erik, comes walzing past, whistling a catchy tune.  
 “Oh, hey Erik,” Erik says. “Who’s your friend?”  

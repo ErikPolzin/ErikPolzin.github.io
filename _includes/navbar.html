@@ -1,5 +1,5 @@
 <nav class="orange darken-3 white-text {% if page.title %}nav-extended{% endif %}">
-  <div class="nav-wrapper" id="site-title">
+  <div class="nav-wrapper show-on-up hide-on-down" id="site-title">
     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     <a href="/" class="brand-logo"> <i class="material-icons">help_outline</i> MysterE</a>
     <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -7,7 +7,7 @@
     </ul>
   </div>
   {% if page.title %}
-    <div class="nav-content red darken-1" id="site-subtitle">
+    <div class="nav-content red darken-1 show-on-down hide-on-up" id="site-subtitle">
       <div class="nav-title center">{{ page.title }}</div>
       <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal">
         <i class="material-icons">favorite</i>
