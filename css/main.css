@@ -4,15 +4,28 @@ body {
   flex-direction: column;
 }
 
+#site-title {
+  padding: 0px 10px;
+}
+
 .nav-title {
-  padding: 10px 15px !important;
+  padding: 20px 15px !important;
   font-family: "Lobster Two";
 }
 
-#blog {
+#post {
   font-family: "Merriweather";
   font-weight: lighter;
+  text-align: justify;
   padding-top: 60px;
+}
+
+#post p:first-of-type:first-letter {
+  float: left;
+  font-size: 45px;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 9px;
 }
 
 #me-img {
