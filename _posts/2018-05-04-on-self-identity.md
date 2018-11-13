@@ -3,6 +3,7 @@ layout: post
 title:  "What makes me me and you you?"
 date:   "04 May 2018"
 tags: essay self-identity
+category: "blog"
 ---
 
 You’re sitting on your couch in your living room. It’s early in the morning, and you’re busy drinking a cup of coffee. You hear a scratching at the door, and open it cautiously, only to find a strange-looking extraterrestrial lifeform waiting to be let in.

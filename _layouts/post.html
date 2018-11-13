@@ -34,12 +34,12 @@
 		<div class="container" id="main">
       <div id="post">
 			  {{ content }}
-      </div id="post-categories">
-	      {% for cat in page.tags %}
-	        <div class="chip">
-	          {{ cat }}
-	        </div>
-	      {% endfor %}
+      </div>
+      {% for cat in page.tags %}
+        <div class="chip">
+          {{ cat }}
+        </div>
+      {% endfor %}
 			</div>
 		</div><!-- /.container -->
 	</body>

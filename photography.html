@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="row">
+  {% for album in site.posts %}  {% if album.category == "album" %}
+    <div class="col s12 m6 l4 xl3">
+      <div class="card photo-album-card">
+        <div class="card-image">
+          <img src="res/img/albums/{{ album.title }}/main.jpg">
+          <a class="card-title" href="{{ album.url }}">{{ album.title }}</a>
+        </div>
+        <div class="card-action">
+          {% for cat in album.tags %}
+            <div class="chip">
+              {{ cat }}
+            </div>
+          {% endfor %}
+          <small class="right grey-text">{{ album.date | date_to_string }}</small>
+        </div>
+      </div>
+    </div>
+  {% endif %} {% endfor %}
+</div>

@@ -3,6 +3,7 @@ layout: post
 title:  "The Secret Goldfish"
 date:   "01 Feb 2017"
 tags: essay narrative
+category: "blog"
 ---
 
 I sit alone. Usually.  

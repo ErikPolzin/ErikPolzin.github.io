@@ -3,6 +3,7 @@ layout: post
 title:  "Euler's Identity"
 date:   "12 Dec 2016"
 tags: math euler
+category: "blog"
 math: true
 ---
 

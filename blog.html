@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="row">
-  {% for post in site.posts %}
+  {% for post in site.posts %} {% if post.category == "blog" %}
     <div class="col s12 m6 l4 xl3">
       <div class="card post-excerpt-card">
         <div class="card-content">
@@ -19,5 +19,5 @@ layout: default
         </div>
       </div>
     </div>
-  {% endfor %}
+  {% endif %} {% endfor %}
 </div>
